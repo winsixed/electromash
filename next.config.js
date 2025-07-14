@@ -1,15 +1,11 @@
-const withCritters = require('next-plugin-critters');
-
 /**
  * @type {import('next').NextConfig}
  */
-module.exports = withCritters({
+const nextConfig = {
   reactStrictMode: true,
   experimental: {
     optimizeCss: true,
   },
-  critters: {
-    preload: 'js-lazy',
-    pruneSource: true,
-  },
-});
+};
+
+module.exports = nextConfig;
