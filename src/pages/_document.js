@@ -13,14 +13,17 @@ export default function Document() {
   return (
     <Html lang="ru">
       <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+          rel="stylesheet"
+        />
         <style id="critical-css">{`
           .skip-link{position:absolute;top:-40px;left:0;background:#fff;color:#3B82F6;padding:8px 16px;z-index:100;}
           .skip-link:focus-visible{top:0;}
           header{background-color:#f3f4f6;}
         `}</style>
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
         <meta name="description" content="Надёжный поставщик промышленных электродвигателей с индивидуальным подходом."/>
         <meta property="og:title" content="Электромашсервис — Промышленные электродвигатели"/>
         <meta property="og:description" content="Индивидуальные решения и точная логистика для предприятий и монтажных организаций."/>

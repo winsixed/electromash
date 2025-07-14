@@ -27,7 +27,11 @@ export default function CookieBanner() {
       <span id="cookie-banner-text" className="text-sm text-gray-700">
         Мы используем cookie. Подробнее в <a href="/privacy-policy">Политике обработки данных</a>.
       </span>
-      <button id="cookie-accept" className="btn" aria-label="Принять cookie">
+      <button
+        id="cookie-accept"
+        className="btn min-h-[44px]"
+        aria-label="Принять cookie"
+      >
         Принять
       </button>
     </aside>
