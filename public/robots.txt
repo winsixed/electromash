@@ -1,2 +1,4 @@
+# Allow search engines
 User-agent: *
 Disallow:
+
