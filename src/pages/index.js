@@ -35,9 +35,9 @@ export default function Home() {
         <section id="contacts" className="section fade-in py-16">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-semibold mb-4">Контакты</h2>
-            <p>📞 <a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
-            <p>✉️ <a href="mailto:info@electromash.ru">info@electromash.ru</a></p>
-            <p>📍 Казань, ул. Лаврентьева, д. 3А, офис 321</p>
+            <p><span aria-hidden="true">📞</span> <a href="tel:+74951234567">+7 (495) 123-45-67</a></p>
+            <p><span aria-hidden="true">✉️</span> <a href="mailto:info@electromash.ru">info@electromash.ru</a></p>
+            <p><span aria-hidden="true">📍</span> Казань, ул. Лаврентьева, д. 3А, офис 321</p>
           </div>
         </section>
       </main>
