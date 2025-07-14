@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply font-sans;
+}
+
 /* Skip link */
 .skip-link {
   position: absolute;

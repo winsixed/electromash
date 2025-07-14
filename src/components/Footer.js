@@ -1,9 +1,14 @@
 export default function Footer() {
   return (
-    <footer role="contentinfo" className="bg-gray-100 mt-16">
-      <div className="container mx-auto text-center py-4 text-sm text-gray-600">
-        © 2025 ООО «Электромашсервис». ИНН 15571205078. Все права защищены.
-      </div>
+    <footer
+      role="contentinfo"
+      className="border-t border-gray-200 py-4 text-center text-sm text-gray-500"
+    >
+      © {new Date().getFullYear()} ООО «Электромашсервис» &middot; ИНН
+      1657125708 &middot; ОГРН 1121690086134 &middot;{' '}
+      <a href="/privacy-policy" className="underline">
+        Политика конфиденциальности
+      </a>
     </footer>
   );
 }
